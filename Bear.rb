@@ -14,12 +14,16 @@ class Bear
   end
 
   def bear_eats_fish(river)
-    @stomach << river.river_looses_fish_to_bear()
+    @stomach << river.river_loses_fish_to_bear()
     return @stomach
   end
 
   def stomach_fish_count()
     return @stomach.length
+  end
+
+  def bear_roars()
+    return "RROOOOooooaaaaaarrrrrr"
   end
 
 end

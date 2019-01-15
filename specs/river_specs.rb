@@ -32,8 +32,8 @@ class TestRiver < MiniTest::Test
     assert_equal(@fish1, @river.get_fish(@fish1))
   end
 
-  def test_river_looses_fish_to_bear()
-    @river.river_looses_fish_to_bear()
+  def test_river_loses_fish_to_bear()
+    @river.river_loses_fish_to_bear()
     assert_equal(5, @river.river_fish_population())
   end
 

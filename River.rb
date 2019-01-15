@@ -21,7 +21,7 @@ attr_accessor :name
     end
   end
 
-  def river_looses_fish_to_bear()
+  def river_loses_fish_to_bear()
     condemned_fish = @population.pop()
     return condemned_fish
   end
